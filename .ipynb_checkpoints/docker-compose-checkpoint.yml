@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  jupyter:
+    image: jupyter/r-notebook
+    restart: 'no'
+    ports:
+      - "8888:8888"
+    volumes:
+      - ".:/home/jovyan"
+
+    command:
+      "jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password=''"
