@@ -1,1 +1,8 @@
 keys.R
+.Rproj.user
+.ipynb_checkpoints
+.jupyter
+.local/share/jupyter 
+.npm/_logs
+.Rhistory
+.bash_history 
