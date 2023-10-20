@@ -6,3 +6,4 @@ keys.R
 .npm/_logs
 .Rhistory
 .bash_history 
+.lesshst
