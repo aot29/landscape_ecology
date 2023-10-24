@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   jupyter:
-    image: jupyter/r-notebook
+    image: aot29/r-notebook
     restart: 'no'
     ports:
       - "8888:8888"
